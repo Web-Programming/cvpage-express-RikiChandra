@@ -3,8 +3,8 @@
     "name": "cv-riki-chandra",
     "builds": [
         {
-            "src": "app.js",
-            "use": "@now/node"
+            "src": "/(.*)",
+            "use": "@vercel/node"
         }
     ],
     "routes": [
