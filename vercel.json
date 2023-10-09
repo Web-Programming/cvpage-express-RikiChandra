@@ -3,7 +3,7 @@
     "name": "cv-riki-chandra",
     "builds": [
         {
-            "src": "/(.*)",
+            "src": "app.js",
             "use": "@vercel/node"
         }
     ],
