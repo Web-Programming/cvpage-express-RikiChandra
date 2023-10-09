@@ -3,14 +3,14 @@
     "name": "cv-riki-chandra",
     "builds": [
         {
-            "src": "./app.js",
+            "src": "./bin/www",
             "use": "@vercel/node"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/"
+            "dest": "./bin/www"
         }
     ]
 }
